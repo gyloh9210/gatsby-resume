@@ -97,11 +97,11 @@ const IndexPage = () => {
                 <div className="content">
                   <p className="title is-5 mb-1">Programming languages</p>
                   {SkillNames.programming_languages.join(", ")}
-                  <p className="title is-5 mb-1 mt-2">Frameworks</p>
+                  <p className="title is-5 mb-1 mt-5">Frameworks</p>
                   {SkillNames.frameworks.join(", ")}
-                  <p className="title is-5 mb-1 mt-2">Methodologies</p>
+                  <p className="title is-5 mb-1 mt-5">Methodologies</p>
                   {SkillNames.methodologies.join(", ")}
-                  <p className="title is-5 mb-1 mt-2">AWS</p>
+                  <p className="title is-5 mb-1 mt-5">AWS</p>
                   {SkillNames.AWS.join(", ")}
                 </div>
               </div>
@@ -158,16 +158,16 @@ const IndexPage = () => {
                       {`${experience.company}, ${experience.year} - `}
                       <span className="is-italic">{experience.title}</span>
                     </p>
-                    <p className="subtitle is-6 mb-1">Responsibilities</p>
+                    <p className="subtitle is-6 mb-1 has-text-weight-semibold">Responsibilities</p>
                     {experience.responsibilities.map((responsibility, key) => (
                       <p key={"exp_res_" + key} className="my-1">- {responsibility}</p>
                     ))}
-                    <p className="subtitle is-6 mb-1">Projects</p>
+                    <p className="subtitle is-6 mb-1 has-text-weight-semibold mt-3">Projects</p>
                     {experience.projects.map((project, key) => (
                       <p key={"exp_pro_" + key} className="my-1">- {project}</p>
                     ))}
-                    <p className="subtitle is-6">
-                      Tech stack: {experience.tech_stack.join(", ")}
+                    <p className="subtitle is-6 mt-3">
+                      <span className="has-text-weight-semibold">Tech stack:</span> {experience.tech_stack.join(", ")}
                     </p>
                   </div>
                 ))}
@@ -189,12 +189,12 @@ const IndexPage = () => {
                     <p className="title is-5 mb-1 is-spaced exp-title" >
                       {`${experience.company}, ${experience.active_period}`}
                     </p>
-                    <p className="subtitle is-6 mb-1">Projects</p>
+                    <p className="subtitle is-6 mb-1 has-text-weight-semibold">Projects</p>
                     {experience.projects.map((project, key) => (
                       <p key={"free_exp_pro" + key} className="my-1">- {project}</p>
                     ))}
-                    <p className="subtitle is-6">
-                      Tech stack: {experience.tech_stacks.join(", ")}
+                    <p className="subtitle is-6 mt-3">
+                      <span className="has-text-weight-semibold">Tech stack:</span> {experience.tech_stacks.join(", ")}
                     </p>
                   </div>
                 ))}
