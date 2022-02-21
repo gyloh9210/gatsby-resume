@@ -160,11 +160,11 @@ const IndexPage = () => {
                     </p>
                     <p className="subtitle is-6 mb-1">Responsibilities</p>
                     {experience.responsibilities.map((responsibility, key) => (
-                      <p className="my-1">- {responsibility}</p>
+                      <p key={"exp_res_" + key} className="my-1">- {responsibility}</p>
                     ))}
                     <p className="subtitle is-6 mb-1">Projects</p>
                     {experience.projects.map((project, key) => (
-                      <p className="my-1">- {project}</p>
+                      <p key={"exp_pro_" + key} className="my-1">- {project}</p>
                     ))}
                     <p className="subtitle is-6">
                       Tech stack: {experience.tech_stack.join(", ")}
@@ -185,13 +185,13 @@ const IndexPage = () => {
             <div className="card-content">
               <div className="content">
                 {sortedFreelanceExp.map((experience, index) => (
-                  <div key={`experience_${index}`} className="mb-5">
-                    <p className="title is-5 mb-1 is-spaced tag is-danger is-large">
+                  <div key={`free_experience_${index}`} className="mb-5">
+                    <p className="title is-5 mb-1 is-spaced tag is-danger is-large" >
                       {`${experience.company}, ${experience.active_period}`}
                     </p>
                     <p className="subtitle is-6 mb-1">Projects</p>
                     {experience.projects.map((project, key) => (
-                      <p className="my-1">- {project}</p>
+                      <p key={"free_exp_pro" + key} className="my-1">- {project}</p>
                     ))}
                     <p className="subtitle is-6">
                       Tech stack: {experience.tech_stacks.join(", ")}
@@ -203,9 +203,9 @@ const IndexPage = () => {
           </div>
         </div>
       </div>
-      <footer class="footer">
-        <div class="content has-text-centered">
-          <p>Copyright © 2018-2019 by Gim Yong</p>
+      <footer className="footer">
+        <div className="content has-text-centered">
+          <p>Copyright © 2022 by Gim Yong</p>
         </div>
       </footer>
     </>
