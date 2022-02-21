@@ -20,19 +20,19 @@ const IndexPage = () => {
   );
 
   return (
-    <>
-      <div className="container mb-5 mt-5">
+    <main>
+      <div className="container is-fluid mb-5 mt-5">
         <div className="columns">
-          <div className="column is-4">
+          <div className="column is-4-desktop is-12-mobile">
             <p className="is-size-3">{AboutMe.name}</p>
             <p className="is-size-4">Software Engineer</p>
           </div>
-          <div className="column">
+          <div className="column is-12-mobile">
             <figure className="image is-128x128 centerImage">
               <img src={profileImage} className="is-rounded" />
             </figure>
           </div>
-          <div className="column">
+          <div className="column is-12-mobile">
             <div className="column has-text-right">
               <p className="is-size-6">
                 <FontAwesomeIcon
@@ -78,7 +78,7 @@ const IndexPage = () => {
       </div>
       <div className="container mt-3">
         <div className="columns">
-          <div className="column is-6">
+          <div className="column is-6 is-12-mobile">
             <div className="card">
               <header className="card-header">
                 <p className="card-header-title">Introduction</p>
@@ -88,7 +88,7 @@ const IndexPage = () => {
               </div>
             </div>
           </div>
-          <div className="column is-6">
+          <div className="column is-6 is-12-mobile">
             <div className="card">
               <header className="card-header">
                 <p className="card-header-title">Skills</p>
@@ -109,7 +109,7 @@ const IndexPage = () => {
           </div>
         </div>
         <div className="columns">
-          <div className="column is-6">
+          <div className="column is-6 is-12-mobile">
             <div className="card">
               <header className="card-header">
                 <p className="card-header-title">Educations</p>
@@ -130,7 +130,7 @@ const IndexPage = () => {
               </div>
             </div>
           </div>
-          <div className="column is-6">
+          <div className="column is-6 is-12-mobile">
             <div className="card">
               <header className="card-header">
                 <p className="card-header-title">Languages</p>
@@ -144,7 +144,7 @@ const IndexPage = () => {
           </div>
         </div>
         <div className="columns">
-          <div className="column">
+          <div className="column is-12-mobile">
             <div className="card">
               <header className="card-header">
                 <p className="card-header-title">Experiences</p>
@@ -154,7 +154,7 @@ const IndexPage = () => {
               <div className="content">
                 {sortedExperiences.map((experience, index) => (
                   <div key={`experience_${index}`} className="mb-5">
-                    <p className="title is-5 mb-1 is-spaced tag is-danger is-large">
+                    <p className="title is-5 mb-1 is-spaced exp-title">
                       {`${experience.company}, ${experience.year} - `}
                       <span className="is-italic">{experience.title}</span>
                     </p>
@@ -186,7 +186,7 @@ const IndexPage = () => {
               <div className="content">
                 {sortedFreelanceExp.map((experience, index) => (
                   <div key={`free_experience_${index}`} className="mb-5">
-                    <p className="title is-5 mb-1 is-spaced tag is-danger is-large" >
+                    <p className="title is-5 mb-1 is-spaced exp-title" >
                       {`${experience.company}, ${experience.active_period}`}
                     </p>
                     <p className="subtitle is-6 mb-1">Projects</p>
@@ -208,7 +208,7 @@ const IndexPage = () => {
           <p>Copyright © 2022 by Gim Yong</p>
         </div>
       </footer>
-    </>
+    </main>
   );
 };
 
