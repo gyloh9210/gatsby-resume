@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/gatsby-resume",
   siteMetadata: {
     title: `my resume site`,
     siteUrl: `https://www.yourdomain.tld`,
