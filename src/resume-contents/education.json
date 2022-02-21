@@ -1,0 +1,17 @@
+{
+  "educations": [
+    {
+      "certificate": "Diploma",
+      "programme": "Game Technology",
+      "college": "KDU",
+      "grade": "CGPA 3.02"
+    },
+    {
+      "certificate": "Degree",
+      "programme": "Computing Studies",
+      "major": "Software development & multimedia",
+      "university": "Northumbria University",
+      "grade": "First Class Honor"
+    }
+  ]
+}

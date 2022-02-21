@@ -1,0 +1,110 @@
+{
+  "experiences": [
+    {
+      "year": "2013",
+      "title": "intern",
+      "company": "SearchNEasy",
+      "responsibilities": [
+        "design and develop web modules for the existing CMS"
+      ],
+      "tech_stack": ["PHP", "jQuery", "JavaScript"],
+      "projects": [
+        "created a comment module",
+        "created a user role management for admin",
+        "created a drag-and-drop feature for allowing admin to customize setting"
+      ]
+    },
+    {
+      "year": "2012",
+      "title": "intern",
+      "company": "iCloud System",
+      "responsibilities": ["design and develop websites"],
+      "projects": [],
+      "tech_stack": ["jQuery", "JavaScript"]
+    },
+    {
+      "year": "2014",
+      "title": "Software Engineer, Executive Level 2",
+      "company": "JobStreet",
+      "responsibilities": [
+        "work in a scrum team",
+        "develop modules of frontend and backend",
+        "review peer level's code",
+        "pair with QA and write test cases"
+      ],
+      "projects": [
+        "Converted non-responsive web pages to responsive by using Bootstrap",
+        "Integrated with Facebook API for getting friend list and where are they working at. User can ask for a job referral thru the Messenger API.",
+        "Preprocessed raw data stored in csv and stored them into a NoSQL database",
+        "Implemented a monitor tool of indexing user activity logs and provided data visualization with ELK setup",
+        "Enhance job search with related job suggestion by analysing the relevant keywords"
+      ],
+      "tech_stack": ["PHP", "jQuery", "Node.js", "JavaScript", "Bootstrap 3", "AWS", "ELK", "Laravel"]
+    },
+    {
+      "year": "2018",
+      "title": "Angular Developer",
+      "company": "Kerry Logistic",
+      "responsibilities": [
+        "implement features in the logistic booking system",
+        "implement RESTful API"
+      ],
+      "projects": [
+        "Implemented an interactive dashboard for visualizing estimated shipment volumes which delivered in certain timeframes",
+        "Integrated with a third party GPS API and stored the GPS logs in a database",
+        "Set up a CI/CD pipeline with Jenkin",
+        "Built a mobile app which user could visualize the shipment volumes in chart presentation",
+        "Integrated with Baidu map API and Google Map API for mapping the waypoints of truck drivers"
+      ],
+      "tech_stack": [".NET Framework", "C#", "AngularJS", "AWS"]
+    },
+    {
+        "year": "2019",
+        "title": "Software Developer",
+        "company": "Monitor ERP System",
+        "responsibilities": [
+            "Work with a team and deliver web modules",
+            "Generate reports with SQL queries"
+        ],
+        "projects": [
+            "Built a web app which allowed user to customize a presentation of web report",
+            "Built a purchase requisition web app",
+            "Build a simple web app for allowing user to manage stock inventory and integrated with the existing ERP"
+        ],
+        "tech_stack": [".NET Framework", "C#", "Vue", "React"]
+    },
+    {
+      "year": "2020",
+      "title": "Senior Software Engineer",
+      "company": "Food Market Hub",
+      "responsibilities": [
+        "Work with a scrum team and deliver modules in backend and frontend for the procurement and inventory system",
+        "Provide peer-level code review"
+      ],
+      "projects": [
+        "Introduced the unit tests to the team and enforced as part of the definition of done",
+        "Created an auto-deployment pipeline for QA environment with Github workflow action",
+        "Implemented a security authorization for API resources checking",
+        "Integrated with Stripe Payout API for allowing vendors getting paid in the system"
+      ],
+      "tech_stack": ["PHP", "Laravel", "Vue"]
+    },
+    {
+      "year": "2021",
+      "title":"Senior Software Engineer",
+      "company": "ORA group",
+      "responsibilities": [
+        "Work closely with stakeholders in a 3-persons small engineering team",
+        "Manage task assignments for freelancers",
+        "Provide peer-level code review"
+      ],
+      "projects": [
+        "Implemented Buy Now Pay Layer (Atome) payment option in the backend system",
+        "Implemented custom useful features in the CMS (Eg: schedule consultation, order filter, report export)",
+        "Implemented server downtime alarms with Uptime Robot",
+        "Troubleshooted and reduced the stripe webhook error rate successfully from 20% to less than 1%"
+      ],
+      "tech_stack": ["PHP", "AWS", "Laravel"]
+    }
+  ]
+}

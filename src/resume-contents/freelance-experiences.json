@@ -1,0 +1,75 @@
+[
+    {
+        "company": "Contente (Social media but for chiropractors)",
+        "active_period": "2021",
+        "tech_stacks": ["Node.js", "React", "TypeScript", "JavaScript", "AWS"],
+        "projects": [
+            "Implementd segment event tracking",
+            "Setup CI/CD pipeline with Github Action",
+            "Created charts for visualizing a business performance",
+            "Preprocessed data in cronjobs and thne utilized it for data visualization for understanding the leads"
+        ]
+    },
+    {
+        "company": "Intrinsik (Medical SaaS platform for orthopedics & dental)",
+        "active_period": "2021",
+        "tech_stacks": ["Node.js", "JavaScript", "ExpressJs"],
+        "projects": [
+            "Increased the test coverage by implementing test cases and also refactor the codebase along"
+        ]
+    },
+    {
+        "company": "Dropee (B2B e-Commerce)",
+        "active_period": "2020",
+        "tech_stacks": ["PHP", "Laravel", "JavaScript", "jQuery"],
+        "projects": [
+            "Created an access control list module - it allowed management role to control what access can grant to a user by different domain",
+            "Created a CMS module - it allowed management role to create new custom pages with content and metadata",
+            "Created an user management - it allowed supplier role to manage user in different domains"
+        ]
+    },
+    {
+        "company": "ORA group (Pharmaceutical e-Commerce)",
+        "active_period": "2021",
+        "tech_stacks": ["PHP", "Vue", "Laravel", "AWS"],
+        "projects": [
+            "Implemented a discount module in the checkout",
+            "Integrated with 3rd party webhook (Zapier, Insider, Slack, Klaviyo) in various of order events",
+            "Set up web servers wtih AWS Elastic Beanstalk",
+            "Enhanced the questionnaire by saving answers one by one instead of all at once"
+        ]
+    },
+    {
+        "company": "IPon9 (Trademark registration system)",
+        "active_period": "2016",
+        "tech_stacks": ["PHP", "Laravel", "jQuery"],
+        "projects": [
+            "Built a system which allows user to manage the trademark registration"
+        ]
+    },
+    {
+        "company": "ridegogoapp (Rides marketplace)",
+        "active_period": "2018",
+        "tech_stacks": ["PHP", "Laravel", "React"],
+        "projects": [
+            "Built a platform which allows user to post ride sharing post. It has a simple post management and admin could create posts."
+        ]
+    },
+    {
+        "company": "metaproperty (Property site)",
+        "active_period": "2019",
+        "tech_stacks": ["PHP", "Laravel", "jQuery", "JavaScript"],
+        "projects": [
+            "It is a property site which allows sellers to post a property for sell or for rent. Agents who see posts interesting can advertise further and impose commission later on."
+        ]
+    },
+    {
+        "company": "GrubLokal (Food marketplace)",
+        "link": "https://drive.google.com/file/d/1j6Jt93h2rAp83m3c7BPCk68o9MMTe87F/view",
+        "active_period": "2020",
+        "tech_stacks": ["PHP", "Laravel", "Vue"],
+        "projects": [
+            "It was a marketplace where seller can post food and connect with buyer. There was a page for admin to approving or rejecting posts."
+        ]
+    }
+]

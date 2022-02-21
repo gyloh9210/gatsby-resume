@@ -1,0 +1,12 @@
+{
+    "name": "Gim Yong",
+    "gender": "Male",
+    "residence_country": "Malaysia",
+    "nationality": "Malaysian",
+    "race": "chinese",
+    "state": "penang",
+    "email": "ronaldoloh92@gmail.com",
+    "summary": "I am a Full Stack developer from Malaysia who have more than 7 years of web development experience. I have worked in many kind of industries: job portal, logistic, b2c e-Commerce, b2b e-Commerce, medical platform and advertising digital platform. I am comfortable with PHP, Node.js and React. I am a fast learner and always pick up the pace in learning new stuffs.",
+    "language_spoken": ["Mandarin", "English", "Malay"],
+    "language_written": ["Mandarin", "English", "Malay"]
+}

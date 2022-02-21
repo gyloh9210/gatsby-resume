@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+$card-header-color: #f03b86;
+$card-background-color: transparent;
+$card-color: #EFF6E0;
+$title-color: #eef0e9;
+$subtitle-color: #eef0e9;
+$card-shadow: transparent;
+$footer-background-color: #2B2D42;
+$footer-color: #EFF6E0;
+$footer-padding: 3rem;
+
+@import "~bulma/bulma.sass";
+
+.centerImage {
+    margin: auto;
+}
+
+html {
+    background-color: #2B2D42 !important;
+}
+
+body {
+    color: #EFF6E0;
+}
+
+a:hover {
+    color: #EFF6E0;
+}
+
+a {
+    color: #86C4DA;
+}
+
+.divider { 
+    background-color: #f03b86;
+    height: 0.7rem;
+}
+
+.icon { 
+    margin-right: 5px;
+    vertical-align: bottom;
+}
+
+.card-header {
+    border-bottom: #f03b86 3px solid;
+}
