@@ -9,6 +9,7 @@ import "./mystyles.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faLocationPin } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { Helmet } from "react-helmet";
 
 const IndexPage = () => {
   const sortedExperiences = Experiences.experiences.sort((a, b) =>
@@ -21,6 +22,7 @@ const IndexPage = () => {
 
   return (
     <main>
+      <Helmet title="Gim Yong's Resume" />
       <div className="container is-fluid mb-5 mt-5">
         <div className="columns">
           <div className="column is-4-desktop is-12-mobile">
