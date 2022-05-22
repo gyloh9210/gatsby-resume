@@ -39,7 +39,16 @@
         "Implemented a monitor tool of indexing user activity logs and provided data visualization with ELK setup",
         "Enhance job search with related job suggestion by analysing the relevant keywords"
       ],
-      "tech_stack": ["PHP", "jQuery", "Node.js", "JavaScript", "Bootstrap 3", "AWS", "ELK", "Laravel"]
+      "tech_stack": [
+        "PHP",
+        "jQuery",
+        "Node.js",
+        "JavaScript",
+        "Bootstrap 3",
+        "AWS",
+        "ELK",
+        "Laravel"
+      ]
     },
     {
       "year": "2018",
@@ -59,19 +68,19 @@
       "tech_stack": [".NET Framework", "C#", "AngularJS", "AWS"]
     },
     {
-        "year": "2019",
-        "title": "Software Developer",
-        "company": "Monitor ERP System",
-        "responsibilities": [
-            "Work with a team and deliver web modules",
-            "Generate reports with SQL queries"
-        ],
-        "projects": [
-            "Built a web app which allowed user to customize a presentation of web report",
-            "Built a purchase requisition web app",
-            "Build a simple web app for allowing user to manage stock inventory and integrated with the existing ERP"
-        ],
-        "tech_stack": [".NET Framework", "C#", "Vue", "React"]
+      "year": "2019",
+      "title": "Software Developer",
+      "company": "Monitor ERP System",
+      "responsibilities": [
+        "Work with a team and deliver web modules",
+        "Generate reports with SQL queries"
+      ],
+      "projects": [
+        "Built a web app which allowed user to customize a presentation of web report",
+        "Built a purchase requisition web app",
+        "Build a simple web app for allowing user to manage stock inventory and integrated with the existing ERP"
+      ],
+      "tech_stack": [".NET Framework", "C#", "Vue", "React"]
     },
     {
       "year": "2020",
@@ -91,18 +100,23 @@
     },
     {
       "year": "2021",
-      "title":"Senior Software Engineer",
+      "title": "Senior Software Engineer",
       "company": "ORA group",
       "responsibilities": [
-        "Work closely with stakeholders in a 3-persons small engineering team",
-        "Manage task assignments for freelancers",
-        "Provide peer-level code review"
+        "Work closely with stakeholders in a fairly small engineering team",
+        "Manage task assignments for freelancers to meet project's timeline",
+        "Provide peer-level code review",
+        "Provide tech support and brainstorm ad-hoc solutions",
+        "Discuss with stakeholders about new tasks",
+        "Execute deployments weekly"
       ],
       "projects": [
         "Implemented Buy Now Pay Layer (Atome) payment option in the backend system",
         "Implemented custom useful features in the CMS (Eg: schedule consultation, order filter, report export)",
         "Implemented server downtime alarms with Uptime Robot",
-        "Troubleshooted and reduced the stripe webhook error rate successfully from 20% to less than 1%"
+        "Troubleshooted and reduced the stripe webhook error rate successfully from 20% to less than 1%",
+        "Deploy Fargate in AWS ECS and Redis as part of the event driven architecture",
+        "Transition synchronous 3rd party services into events and distribute into queues"
       ],
       "tech_stack": ["PHP", "AWS", "Laravel"]
     }
