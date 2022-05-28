@@ -8,7 +8,7 @@ import profileImage from "../images/profile.jpg";
 import "./mystyles.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faLocationPin } from "@fortawesome/free-solid-svg-icons";
-import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { Helmet } from "react-helmet";
 
 const IndexPage = () => {
@@ -65,6 +65,16 @@ const IndexPage = () => {
                   target="_blank"
                 >
                   LinkedIn
+                </a>
+              </p>
+              <p className="is-size-6">
+                <FontAwesomeIcon
+                  icon={faGithub}
+                  size="1x"
+                  className="icon mt-2"
+                />
+                <a href="https://github.com/gyloh9210" target="_blank">
+                  GitHub Profile
                 </a>
               </p>
             </div>
@@ -160,16 +170,27 @@ const IndexPage = () => {
                       {`${experience.company}, ${experience.year} - `}
                       <span className="is-italic">{experience.title}</span>
                     </p>
-                    <p className="subtitle is-6 mb-1 has-text-weight-semibold">Responsibilities</p>
+                    <p className="subtitle is-6 mb-1 has-text-weight-semibold">
+                      Responsibilities
+                    </p>
                     {experience.responsibilities.map((responsibility, key) => (
-                      <p key={"exp_res_" + key} className="my-1">- {responsibility}</p>
+                      <p key={"exp_res_" + key} className="my-1">
+                        - {responsibility}
+                      </p>
                     ))}
-                    <p className="subtitle is-6 mb-1 has-text-weight-semibold mt-3">Projects</p>
+                    <p className="subtitle is-6 mb-1 has-text-weight-semibold mt-3">
+                      Projects
+                    </p>
                     {experience.projects.map((project, key) => (
-                      <p key={"exp_pro_" + key} className="my-1">- {project}</p>
+                      <p key={"exp_pro_" + key} className="my-1">
+                        - {project}
+                      </p>
                     ))}
                     <p className="subtitle is-6 mt-3">
-                      <span className="has-text-weight-semibold">Tech stack:</span> {experience.tech_stack.join(", ")}
+                      <span className="has-text-weight-semibold">
+                        Tech stack:
+                      </span>{" "}
+                      {experience.tech_stack.join(", ")}
                     </p>
                   </div>
                 ))}
@@ -188,15 +209,22 @@ const IndexPage = () => {
               <div className="content">
                 {sortedFreelanceExp.map((experience, index) => (
                   <div key={`free_experience_${index}`} className="mb-5">
-                    <p className="title is-5 mb-1 is-spaced exp-title" >
+                    <p className="title is-5 mb-1 is-spaced exp-title">
                       {`${experience.company}, ${experience.active_period}`}
                     </p>
-                    <p className="subtitle is-6 mb-1 has-text-weight-semibold">Projects</p>
+                    <p className="subtitle is-6 mb-1 has-text-weight-semibold">
+                      Projects
+                    </p>
                     {experience.projects.map((project, key) => (
-                      <p key={"free_exp_pro" + key} className="my-1">- {project}</p>
+                      <p key={"free_exp_pro" + key} className="my-1">
+                        - {project}
+                      </p>
                     ))}
                     <p className="subtitle is-6 mt-3">
-                      <span className="has-text-weight-semibold">Tech stack:</span> {experience.tech_stacks.join(", ")}
+                      <span className="has-text-weight-semibold">
+                        Tech stack:
+                      </span>{" "}
+                      {experience.tech_stacks.join(", ")}
                     </p>
                   </div>
                 ))}
