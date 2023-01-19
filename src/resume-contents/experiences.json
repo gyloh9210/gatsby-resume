@@ -107,18 +107,25 @@
         "Manage task assignments for freelancers to meet project's timeline",
         "Provide peer-level code review",
         "Provide tech support and brainstorm ad-hoc solutions",
-        "Discuss with stakeholders about new tasks",
-        "Execute deployments weekly"
+        "Execute deployments",
+        "Implement new features and enhancements to the eCommerce platform"
       ],
       "projects": [
         "Implemented Buy Now Pay Layer (Atome) payment option in the backend system",
-        "Implemented custom useful features in the CMS (Eg: schedule consultation, order filter, report export)",
+        "Implemented custom useful features in the CMS (Eg: schedule consultation, order filter, report export, slack notification)",
         "Implemented server downtime alarms with Uptime Robot",
         "Troubleshooted and reduced the stripe webhook error rate successfully from 20% to less than 1%",
-        "Deploy Fargate in AWS ECS and Redis as part of the event driven architecture",
-        "Transition synchronous 3rd party services into events and distribute into queues"
+        "Deploy AWS ECS and Redis as part of the event driven architecture",
+        "Transition synchronous 3rd party services into events and distribute into queues",
+        "Work in various microservices. Eg: working on shopify order creation module in order service",
+        "Implement stripe 3d authentication in vue project",
+        "Set up websites with various of AWS services, Eg: ECS, Elastic Beanstalk, S3",
+        "Send SNS events from the eCommerce platform. Eg: order created, order paid, appointment booked, etc",
+        "Send transactional email with mailgun",
+        "Integrate with third party EMR system, Eg: patient registration, patient update",
+        "Decouple the legacy system into microservices"
       ],
-      "tech_stack": ["PHP", "AWS", "Laravel"]
+      "tech_stack": ["PHP", "AWS", "Laravel", "Vue", "Typescript"]
     }
   ]
 }

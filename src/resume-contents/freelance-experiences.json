@@ -1,13 +1,25 @@
 [
     {
+        "company": "Cherish (social network for art creators)",
+        "active_period": "2022",
+        "tech_stacks": ["Node.js", "nestJs", "graphql", "prisma", "TypeScript"],
+        "projects": [
+            "Implement user blocking feature",
+            "Implement unit tests with jest",
+            "Implement rate limit to graphql request"
+        ]
+    },
+    {
         "company": "Contente (Social media but for chiropractors)",
-        "active_period": "2021",
+        "active_period": "2021 - 2022",
         "tech_stacks": ["Node.js", "React", "TypeScript", "JavaScript", "AWS"],
         "projects": [
             "Implementd segment event tracking",
             "Setup CI/CD pipeline with Github Action",
             "Created charts for visualizing a business performance",
-            "Preprocessed data in cronjobs and thne utilized it for data visualization for understanding the leads"
+            "Preprocessed data in cronjobs and thne utilized it for data visualization for understanding the leads",
+            "Implement media upload and text upload with microservices and sns. Eg: Push a notification to asset service for associating a media to a post",
+            "Implement a wysiwyg editor"
         ]
     },
     {
