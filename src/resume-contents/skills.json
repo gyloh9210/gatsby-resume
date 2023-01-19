@@ -1,6 +1,6 @@
 {
-    "programming_languages": ["PHP", "JavaScript", "Node.js"],
-    "frameworks": ["React", "Express.js", "Laravel"],
+    "programming_languages": ["PHP", "JavaScript", "Node.js", "TypeScript"],
+    "frameworks": ["React", "Express.js", "Laravel", "nestJs"],
     "methodologies": ["Scrum", "Agile"],
-    "AWS": ["RDS", "EC2", "Redshift", "Cloudwatch", "Elastic Beanstalk", "DynamoDb", "Lambda", "S3"]
+    "AWS": ["RDS", "EC2", "Redshift", "Cloudwatch", "Elastic Beanstalk", "DynamoDb", "Lambda", "S3", "ECS"]
 }
