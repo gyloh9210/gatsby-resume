@@ -1,7 +1,7 @@
 [
     {
         "company": "Cherish (social network for art creators)",
-        "active_period": "2022 - Present",
+        "active_period": "2022 - 2023",
         "tech_stacks": ["Node.js", "nestJs", "graphql", "prisma", "TypeScript"],
         "projects": [
             "Implement user blocking feature",
@@ -11,7 +11,7 @@
     },
     {
         "company": "Contente (Social media but for chiropractors)",
-        "active_period": "2021 - 2022",
+        "active_period": "2021 - Present",
         "tech_stacks": ["Node.js", "React", "TypeScript", "JavaScript", "AWS"],
         "projects": [
             "Implementd segment event tracking",
