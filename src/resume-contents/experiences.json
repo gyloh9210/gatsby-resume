@@ -102,13 +102,16 @@
       "year": "2021 - Present",
       "title": "Senior Software Engineer",
       "company": "ORA group",
+      "website": "https://www.ora.group/",
       "responsibilities": [
-        "Work in a hyper-growth phase telehealth startup with stakeholders",
+        "Provide guidance to the team which consist of 6 persons",
+        "Work in a hyper-growth phase telehealth startup",
         "Manage task assignments for freelancers to meet project's timeline",
         "Provide peer-level code review",
-        "Provide tech support and brainstorm solutions",
+        "Provide tech support",
+        "Brainstorm solutions with the team",
         "Execute deployments",
-        "Implement new features and enhancements to the eCommerce platform",
+        "Implement new features and enhancements across backend (eg: microservices, monolith legacy system) and  frontend",
         "Work on technical documentation"
       ],
       "projects": [
@@ -116,17 +119,16 @@
         "Implemented custom useful features in the CMS (Eg: schedule consultation, order filter, report export, slack notification)",
         "Implemented server downtime alarms with Uptime Robot",
         "Troubleshooted and reduced the stripe webhook error rate successfully from 20% to less than 1%",
-        "Deploy AWS ECS and Redis as part of the event driven architecture",
-        "Transition synchronous 3rd party services into events and distribute into queues",
-        "Work in various microservices. Eg: working on shopify order creation module in order service",
-        "Implement stripe 3d authentication in vue project",
-        "Set up websites with various of AWS services, Eg: ECS, Elastic Beanstalk, S3",
-        "Send SNS events from the eCommerce platform. Eg: order created, order paid, appointment booked, etc",
-        "Send transactional email with mailgun",
-        "Integrate with third party EMR system, Eg: patient registration, patient update",
-        "Decouple the legacy system into microservices"
+        "Implement the observer pattern to the legacy system across 3rd party integrations",
+        "Implement stripe 3ds authentication",
+        "Set up necessary AWS resources for brand launches and country launches",
+        "Impleemnt SNS events from various order flows. Eg: order created, order paid, appointment booked, etc",
+        "Integrate with transactional mailgun email API",
+        "Integrate with third party EMR (Remedi & Plato) system, Eg: patient registration, patient update",
+        "Transition the legacy system to microservices",
+        "Migrate the reconsultation from Remedi to Plato"
       ],
-      "tech_stack": ["PHP", "AWS", "Laravel", "Vue", "Typescript"]
+      "tech_stack": ["PHP", "AWS", "Laravel", "Vue", "Typescript", "Nodejs", "React"]
     }
   ]
 }

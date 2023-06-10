@@ -170,6 +170,13 @@ const IndexPage = () => {
                       {`${experience.company}, ${experience.year} - `}
                       <span className="is-italic">{experience.title}</span>
                     </p>
+                    {experience.website && (
+                      <p className="subtitle is-6 mb-1 has-text-weight-semibold">
+                        Website - <a href={experience.website} target="_blank">
+                          {experience.website}
+                        </a>
+                      </p>
+                    )}
                     <p className="subtitle is-6 mb-1 has-text-weight-semibold">
                       Responsibilities
                     </p>
