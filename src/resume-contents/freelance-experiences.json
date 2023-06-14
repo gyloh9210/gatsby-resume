@@ -1,16 +1,19 @@
 [
     {
         "company": "Cherish (social network for art creators)",
+        "website": "https://chic-moonbeam-80e411.netlify.app/",
         "active_period": "2022 - 2023",
         "tech_stacks": ["Node.js", "nestJs", "graphql", "prisma", "TypeScript"],
         "projects": [
             "Implement user blocking feature",
             "Implement unit tests with jest",
-            "Implement rate limit to graphql request"
+            "Implement rate limit to graphql request",
+            "Integrate with Stripe for payment"
         ]
     },
     {
         "company": "Contente (Social media but for chiropractors)",
+        "website": "https://app.contenteapp.com/",
         "active_period": "2021 - Present",
         "tech_stacks": ["Node.js", "React", "TypeScript", "JavaScript", "AWS"],
         "projects": [
@@ -70,6 +73,7 @@
     {
         "company": "metaproperty (Property site)",
         "active_period": "2019",
+        "website": "https://metaproperty.com/",
         "tech_stacks": ["PHP", "Laravel", "jQuery", "JavaScript"],
         "projects": [
             "It is a property site which allows sellers to post a property for sell or for rent. Agents who see posts interesting can advertise further and impose commission later on."
@@ -77,7 +81,7 @@
     },
     {
         "company": "GrubLokal (Food marketplace)",
-        "link": "https://drive.google.com/file/d/1j6Jt93h2rAp83m3c7BPCk68o9MMTe87F/view",
+        "website": "https://drive.google.com/file/d/1j6Jt93h2rAp83m3c7BPCk68o9MMTe87F/view",
         "active_period": "2020",
         "tech_stacks": ["PHP", "Laravel", "Vue"],
         "projects": [

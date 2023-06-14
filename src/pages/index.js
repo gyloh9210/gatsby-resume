@@ -222,6 +222,13 @@ const IndexPage = () => {
                     <p className="subtitle is-6 mb-1 has-text-weight-semibold">
                       Projects
                     </p>
+                    {experience.website && (
+                      <p className="subtitle is-6 mb-1 has-text-weight-semibold">
+                        Website - <a href={experience.website} target="_blank">
+                          {experience.website}
+                        </a>
+                      </p>
+                    )}
                     {experience.projects.map((project, key) => (
                       <p key={"free_exp_pro" + key} className="my-1">
                         - {project}
@@ -242,7 +249,7 @@ const IndexPage = () => {
       </div>
       <footer className="footer">
         <div className="content has-text-centered">
-          <p>Copyright © 2022 by Gim Yong</p>
+          <p>Copyright © 2023 by Gim Yong</p>
         </div>
       </footer>
     </main>

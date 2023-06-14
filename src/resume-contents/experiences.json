@@ -104,14 +104,14 @@
       "company": "ORA group",
       "website": "https://www.ora.group/",
       "responsibilities": [
-        "Provide guidance to the team which consist of 6 persons",
+        "Provide support and guidance to the team which consist of 6 persons",
         "Work in a hyper-growth phase telehealth startup",
         "Manage task assignments for freelancers to meet project's timeline",
         "Provide peer-level code review",
         "Provide tech support",
-        "Brainstorm solutions with the team",
-        "Execute deployments",
-        "Implement new features and enhancements across backend (eg: microservices, monolith legacy system) and  frontend",
+        "Plan small projects from task prioritizing, solution brainstorming and implementation",
+        "Setup and execute deployments with CircleCi/Github action",
+        "Implement new features and enhancements across backend (eg: microservices, monolith legacy system) and  frontend (React and Vue)",
         "Work on technical documentation"
       ],
       "projects": [
