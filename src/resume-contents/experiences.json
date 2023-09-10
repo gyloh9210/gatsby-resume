@@ -99,7 +99,7 @@
       "tech_stack": ["PHP", "Laravel", "Vue"]
     },
     {
-      "year": "2021 - Present",
+      "year": "2021 - 2023",
       "title": "Senior Software Engineer",
       "company": "ORA group",
       "website": "https://www.ora.group/",
@@ -129,6 +129,17 @@
         "Migrate the reconsultation from Remedi to Plato"
       ],
       "tech_stack": ["PHP", "AWS", "Laravel", "Vue", "Typescript", "Nodejs", "React"]
+    },
+    {
+      "year": "2023 - Present",
+      "title": "Lead Developer",
+      "company": "Havence",
+      "website": "https://havschool.com/",
+      "responsibilities": [
+        "Work closely with the top management for planning and executing projects"
+      ],
+      "projects": [],
+      "tech_stack": ["PHP", "AWS", "Laravel", "React", "Node.js"]
     }
   ]
 }
