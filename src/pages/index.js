@@ -61,7 +61,7 @@ const IndexPage = () => {
                   className="icon mt-2"
                 />
                 <a
-                  href="https://www.linkedin.com/in/loh-gim-yong-71299699"
+                  href="https://www.linkedin.com/in/gim-yong-71299699/"
                   target="_blank"
                 >
                   LinkedIn

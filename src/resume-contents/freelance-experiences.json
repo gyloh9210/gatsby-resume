@@ -1,8 +1,18 @@
 [
   {
+    "company": "Arrivo",
+    "website": "https://dev.d3s31hwyfasvxs.amplifyapp.com/",
+    "active_period": "2023 - Present",
+    "tech_stacks": ["Node.js", "ExpressJs"],
+    "projects": [
+      "Integrate with 6 types of payment gateway for payment event (Stripe, Airwallex, Payex, Chip, Senangpay, Billplz)",
+      "Deliver financial modules (Reconciliation, Refund, Commission)"
+    ]
+  },
+  {
     "company": "Tacklit (mental health service SaaS)",
     "website": "https://tacklit.com/",
-    "active_period": "2023",
+    "active_period": "2023 - 2023",
     "tech_stacks": ["Node.js", "React"],
     "projects": [
       "Implement a care plan mockup for allowing clinician creating appointments with patients",

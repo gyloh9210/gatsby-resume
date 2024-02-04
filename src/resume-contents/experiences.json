@@ -136,7 +136,10 @@
       "company": "Havence",
       "website": "https://havschool.com/",
       "responsibilities": [
-        "Work closely with the top management for planning and executing projects"
+        "Research and develop an authorization microservice with DynamoDB and NextJS",
+        "Deliver enhancements, features and bug fixes for the existing system",
+        "Improve code readability and code quality",
+        "Plan project requirements"
       ],
       "projects": [],
       "tech_stack": ["PHP", "AWS", "Laravel", "React", "Node.js"]
