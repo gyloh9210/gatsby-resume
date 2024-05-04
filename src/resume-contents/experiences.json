@@ -139,10 +139,11 @@
         "Research and develop an authorization microservice with DynamoDB and NextJS",
         "Deliver enhancements, features and bug fixes for the existing system",
         "Improve code readability and code quality",
-        "Plan project requirements"
+        "Plan project requirements and execute",
+        "Provide code review for junior level and peer level"
       ],
       "projects": [],
-      "tech_stack": ["PHP", "AWS", "Laravel", "React", "Node.js"]
+      "tech_stack": ["PHP", "AWS", "Laravel", "React", "Node.js", "VueJS"]
     }
   ]
 }
